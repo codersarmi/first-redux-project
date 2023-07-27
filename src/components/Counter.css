@@ -1,0 +1,31 @@
+.counter {
+  width: 80%;
+  margin: auto;
+  background-color: cornflowerblue;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 8px;
+}
+.counter h1,
+h2 {
+  font-size: 1.875rem;
+}
+.counter_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.counter-btn {
+  color: cornflowerblue;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
